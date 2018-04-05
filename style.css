@@ -1,0 +1,331 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@media only screen and (max-width: 600px){ /* for mobile*/
+    p{
+        font-size: 1em;
+    }
+    
+    h1{
+        font-family: 'Poiret One', cursive;
+        font-size: 2.5em;
+        color: seagreen;
+        margin-top: 0;
+    }
+    
+    h2{
+        font-family: 'Poiret One', cursive;
+        font-size: 1.5em;
+        color:seagreen;    
+        text-align: center;
+    }
+    h2::before{
+        content: "<!--";
+        color: seagreen;
+    }
+    h2:after{
+        content: "-->";
+        color: seagreen;
+    }
+    
+    ul{
+        padding: 0;
+    }
+    
+    ul li{
+        list-style: none;
+    }
+    
+    .glyphicon{
+        font-size: 0.8em;
+    }
+    
+
+    
+    #header{
+        text-align: justify;
+        width: 90%;
+        padding: 0 5% 10px 5%;
+    }
+    #header img{
+        width: 70%;
+        padding: 0 15%;
+    }
+    
+    #education{
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    #experience{
+        padding-bottom: 30px;
+    }
+    #experience table{
+        font-size: 1em;
+        table-layout: fixed;
+        width: 100%;
+    }
+    #experience table tr td{
+        background: seagreen;
+        vertical-align: top;
+        padding: 5px 10px;
+    }
+    
+    #contact{
+        padding-bottom: 20px;
+        width:90%;
+        padding: 0 5%;
+        
+    }
+    contact ul li{
+        font-size: 1em;
+    }
+    
+    #techSkills{ 
+        padding-bottom: 10px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #techSkills ul li{
+        background-color: seagreen;
+        color:white;
+        margin: 2px 0;
+        padding: 0 10px;
+        font-size: 1em;
+    }
+    
+    #funFacts{
+        padding-bottom: 20px;
+    }
+    #funFacts ul li{
+        font-size: 1em;
+    }
+    #funFacts ul li::before{
+        content: "~ ";
+    }
+}
+
+@media only screen and (min-width: 600px){ /* for tablet*/
+    p{
+        font-size: 1em;
+    }
+    
+    h1{
+        font-family: 'Poiret One', cursive;
+        font-size: 2.5em;
+        color: steelblue;
+        margin-top: 0;
+    }
+    
+    h2{
+        font-family: 'Poiret One', cursive;
+        font-size: 1.5em;
+        color:steelblue;    
+    }
+    h2::before{
+        content: "<!--";
+        color: steelblue;
+    }
+    h2:after{
+        content: "-->";
+        color: steelblue;
+    }
+    
+    ul{
+        padding: 0;
+    }
+    
+    ul li{
+        list-style: none;
+    }
+    
+    .glyphicon{
+        font-size: 0.8em;
+    }
+    
+    #left{
+        width: 49%;
+        padding-right:1%;
+        padding-bottom: 30px;
+        float: left;
+        margin: 0;
+    }
+    
+    #right{
+        width: 49%;
+        padding-left: 1%;
+        padding-bottom: 30px;
+        float: right;
+        margin: 0;
+    }
+    
+    #header{
+        text-align: justify;
+        width: 80%;
+        padding: 0 10%;
+    }
+    #header img{
+        width: 60%;
+        padding: 0 20%;
+    }
+    
+    #education{
+        padding-bottom: 10px;
+    }
+    
+    #experience{
+
+    }
+    #experience table{
+        font-size: 1em;
+        table-layout: fixed;
+        width: 100%;
+    }
+    #experience table tr td{
+        background: steelblue;
+        vertical-align: top;
+        padding: 5px 10px;
+    }
+    
+    #contact{
+        padding-bottom: 10px;
+    }
+    contact ul li{
+        font-size: 1em;
+    }
+    
+    #techSkills{ 
+        padding-bottom: 10px;
+    }
+    #techSkills ul li{
+        background-color: steelblue;
+        color:white;
+        margin: 2px 0;
+        padding: 0 10px;
+        font-size: 1em;
+    }
+    
+    #funFacts{
+    
+    }
+    #funFacts ul li{
+        font-size: 1em;
+    }
+    #funFacts ul li::before{
+        content: "~ ";
+    }
+}
+
+@media only screen and (min-width: 900px){ /* for desktop*/
+    p{
+        font-size: 1.1em;
+    }
+    
+    h1{
+        font-family: 'Poiret One', cursive;
+        font-size: 3em;
+        color: cadetblue;
+        margin-top: 0;
+    }
+    
+    h2{
+        font-family: 'Poiret One', cursive;
+        font-size: 2em;
+        color:cadetblue;    
+    }
+    h2::before{
+        content: "<!--";
+        color: cadetblue;
+    }
+    h2:after{
+        content: "-->";
+        color: cadetblue;
+    }
+    
+    ul{
+        padding: 0;
+    }
+    
+    ul li{
+        list-style: none;
+    }
+    
+    .glyphicon{
+        font-size: 0.8em;
+    }
+    
+    #left{
+        width: 49%;
+        padding-right:1%;
+        padding-bottom: 30px;
+        float: left;
+        margin: 0;
+    }
+    
+    #right{
+        width: 49%;
+        padding-left: 1%;
+        padding-bottom: 30px;
+        float: right;
+        margin: 0;
+    }
+    
+    #header{
+        text-align: justify;
+        width: 60%;
+        padding: 0 20%;
+    }
+    #header img{
+        width: 35%;
+        padding: 0 32.5%;
+    }
+    
+    #education{
+
+    }
+    
+    #experience{
+
+    }
+    #experience table{
+        font-size: 1.1em;
+        table-layout: fixed;
+        width: 100%;
+    }
+    #experience table tr td{
+        background: cadetblue;
+        vertical-align: top;
+        padding: 5px 10px;
+    }
+    
+    #contact{
+
+    }
+    #contact ul li{
+        font-size: 1.1em;
+    }
+    
+    #techSkills{ 
+    }
+    #techSkills ul li{
+        background-color: cadetblue;
+        color:white;
+        margin: 2px 0;
+        padding: 0 10px;
+        font-size: 1.1em;
+    }
+    
+    #funFacts{
+        
+    }
+    #funFacts ul li{
+        font-size: 1.1em;
+    }
+    #funFacts ul li::before{
+        content: "~ ";
+    }
+}
